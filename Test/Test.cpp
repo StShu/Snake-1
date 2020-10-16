@@ -1,11 +1,12 @@
 ﻿#include "pch.h"
 #include "CppUnitTest.h"
+#include"../Snake/Snake.cpp"
 
 using namespace Microsoft::VisualStudio::CppUnitTestFramework;
 
-namespace UnitTest1
+namespace Test
 {
-	TEST_CLASS(UnitTest1)
+	TEST_CLASS(Test)
 	{
 	public:
 		
@@ -15,5 +16,6 @@ namespace UnitTest1
 		TEST_METHOD(TestMethod2)
 		{
 		}
+	
 	};
 }
