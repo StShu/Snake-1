@@ -10,10 +10,16 @@ namespace Test
 	{
 	public:
 		
-		TEST_METHOD(TestMethod1)
+		TEST_METHOD(Setup)
 		{
 		}
-		TEST_METHOD(TestMethod2)
+		TEST_METHOD(Draw)
+		{
+		}
+		TEST_METHOD(Logic)
+		{
+		}
+		TEST_METHOD(Input)
 		{
 		}
 	
