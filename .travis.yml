@@ -8,5 +8,3 @@ script:
   - git ls-files src/ | xargs clang-format -i && git diff --exit-code
   - git ls-files test/test.cpp | xargs clang-format -i && git diff --exit-code
   - make
-  - make test
-  - make runtest
