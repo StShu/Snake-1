@@ -126,7 +126,7 @@ void Logic()
         break;
     }
 
-    //if (x > width || x < 0 || y > height || y < 0)
+    // if (x > width || x < 0 || y > height || y < 0)
     //    gameOver = true;
     if (x >= width - 1)
         x = 0;
