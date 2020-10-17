@@ -18,8 +18,6 @@
     <ClCompile Include="Snake.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
-    <ClCompile Include="README.md">
-      <Filter>Исходные файлы</Filter>
-    </ClCompile>
+    <ClCompile Include="README.md" />
   </ItemGroup>
 </Project>
