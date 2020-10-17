@@ -60,8 +60,8 @@ void Draw()
 
 void Input()
 {
-    if (_kbhit()){
-        switch (_getch()){
+    if (_kbhit()) {
+        switch (_getch()) {
         case 'a':
             if (dir != RIGHT)
                 dir = LEFT;
