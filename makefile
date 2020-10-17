@@ -14,9 +14,6 @@ $(BIN_DIR)/main: $(BUILD_DIR)/Snake.o $(BUILD_DIR)/functions.o
 $(BUILD_DIR)/Snake.o:
 	g++ $(FLAGS) -c $(SRC_DIR)/Snake.cpp -o $(BUILD_DIR)/Snake.o
 	
-$(BUILD_DIR)/functions.o:
-	g++ $(FLAGS) -c $(SRC_DIR)/Snake.cpp -o $(BUILD_DIR)/functions.o
-	
 	
 run: 
 	./bin/main
